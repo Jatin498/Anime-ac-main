@@ -46,7 +46,7 @@ def start_button(client):
                 InlineKeyboardButton(text="Channel 1", url=client.invitelink),
                 InlineKeyboardButton(text="Channel 2", url=client.invitelink2),
             ],
-            [InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="close")],
+            [InlineKeyboardButton(text="Close", callback_data="close")],
         ]
         return buttons
 
