@@ -63,7 +63,7 @@ async def batch(client: Client, message: Message):
         ]
     )
     await second_message.reply_text(
-        f"<b>Link Sharing File Berhasil Di Buat:</b>\n\n{link}",
+        f"<b>File Sharing Link Successfully Created:</b>\n\n{link}",
         quote=True,
         reply_markup=reply_markup,
     )
@@ -102,7 +102,7 @@ async def link_generator(client: Client, message: Message):
         ]
     )
     await channel_message.reply_text(
-        f"<b>Link Sharing File Berhasil Di Buat:</b>\n\n{link}",
+        f"<b>File Sharing Link Successfully Created:</b>\n\n{link}",
         quote=True,
         reply_markup=reply_markup,
     )
