@@ -208,12 +208,13 @@ async def send_text(client: Bot, message: Message):
                 except BaseException:
                     unsuccessful += 1
                 total += 1
-        status = f"""<b><u>Berhasil Broadcast</u>
-Jumlah Pengguna: <code>{total}</code>
-Berhasil: <code>{successful}</code>
-Gagal: <code>{unsuccessful}</code>
-Pengguna diblokir: <code>{blocked}</code>
-Akun Terhapus: <code>{deleted}</code></b>"""
+        status = f"""<b><u>Successful Broadcast</u>
+───────────────────────
+ Number of Users: <code>{total}</code>
+ Success: <code>{successful}</code>
+ Failed: <code>{unsuccessful}</code>
+ User blocked: <code>{blocked}</code>
+ Deleted Account: <code>{deleted}</code></b>"""
         return await pls_wait.edit(status)
     else:
         msg = await message.reply(
