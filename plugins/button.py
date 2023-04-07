@@ -92,7 +92,7 @@ def fsub_button(client, message):
         buttons = [
             [
                 InlineKeyboardButton(text="Aɴɪᴍᴇ Cᴀᴍᴘᴜs", url=client.invitelink),
-                InlineKeyboardButton(text="Cᴀᴍᴘᴜs Bᴏᴛs, url=client.invitelink2),
+                InlineKeyboardButton(text="Cᴀᴍᴘᴜs Bᴏᴛs", url=client.invitelink2),
             ],
         ]
         try:
