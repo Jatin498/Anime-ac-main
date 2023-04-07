@@ -41,12 +41,10 @@ async def run_speedtest(client: Bot, message: Message):
     m = await m.edit("🔄 Sharing Speedtest Results")
     path = wget.download(result["share"])
 
-    output = f"""💡 <b>SpeedTest Results</b>
-    
+    output = f"""💡 <b>SpeedTest Results</b>   
 <u><b>Client:<b></u>
 <b>ISP:</b> {result['client']['isp']}
-<b>Country:</b> {result['client']['country']}
-  
+<b>Country:</b> {result['client']['country']} 
 <u><b>Server:</b></u>
 <b>Name:</b> {result['server']['name']}
 <b>Country:</b> {result['server']['country']}, {result['server']['cc']}
