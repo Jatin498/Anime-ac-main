@@ -25,24 +25,24 @@ class Data:
   ├ /speedtest - To test the bot server speed
   └ /broadcast - To send a broadcast message to the bot user
   
- 👨‍💻 Developed by </b><a href='https://t.me/Campus_Bots_Update'>Anime Campus</a>
+ 👨‍💻 Developed by </b><a href='https://t.me/Campus_Bot_Update'>Anime Campus</a>
 """
 
     close = [
-        [InlineKeyboardButton("Close", callback_data="close")]
+        [InlineKeyboardButton("🍁Cʟᴏsᴇ🍁", callback_data="close")]
     ]
 
     mbuttons = [
         [
-            InlineKeyboardButton("Help", callback_data="help"),
-            InlineKeyboardButton("Close", callback_data="close")
+            InlineKeyboardButton("😙Hᴇʟᴘ😙", callback_data="help"),
+            InlineKeyboardButton("🍁Cʟᴏsᴇ🍁", callback_data="close")
         ],
     ]
 
     buttons = [
         [
-            InlineKeyboardButton("About", callback_data="about"),
-            InlineKeyboardButton("Close", callback_data="close")
+            InlineKeyboardButton("🥀Aʙᴏᴜᴛ🥀", callback_data="about"),
+            InlineKeyboardButton("🍁Cʟᴏsᴇ🍁", callback_data="close")
         ],
     ]
 
