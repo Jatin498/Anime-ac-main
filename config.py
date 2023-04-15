@@ -23,7 +23,7 @@ API_HASH = os.environ.get("API_HASH", "12bbd720f4097ba7713c5e40a11dfd2a")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001750485720"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "MH17_KUNAL")
+OWNER = os.environ.get("OWNER", "The_Nanamii")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
@@ -40,7 +40,7 @@ DB_URI = os.environ.get("DATABASE_URL", "postgres://brmhwhgf:Eq_ZuGoNei_j50ST1iG
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001209619698"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001952437599"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001838493560")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -50,7 +50,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5885920877").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "6091170475").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
