@@ -40,7 +40,7 @@ DB_URI = os.environ.get("DATABASE_URL", "postgres://brmhwhgf:Eq_ZuGoNei_j50ST1iG
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001209619698"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0")) 
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001928279167")) 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
