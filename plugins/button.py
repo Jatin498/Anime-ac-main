@@ -29,7 +29,7 @@ def start_button(client):
     if FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Aɴɪᴍᴇ Cᴀᴍᴘᴜs", url=client.invitelink),
+                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 𝟷", url=client.invitelink),
             ],
             [
                 InlineKeyboardButton(text="👾Hᴇʟᴘ👾", callback_data="help"),
@@ -43,8 +43,8 @@ def start_button(client):
                 InlineKeyboardButton(text="Help", callback_data="help"),
             ],
             [
-                InlineKeyboardButton(text="Aɴɪᴍᴇ Cᴀᴍᴘᴜs", url=client.invitelink),
-                InlineKeyboardButton(text="Cᴀᴍᴘᴜs Bᴏᴛs", url=client.invitelink2),
+                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 𝟷", url=client.invitelink),
+                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 𝟸", url=client.invitelink2),
             ],
             [InlineKeyboardButton(text="🍁Cʟᴏsᴇ🍁", callback_data="close")],
         ]
@@ -55,14 +55,14 @@ def fsub_button(client, message):
     if not FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Cᴀᴍᴘᴜs Bᴏᴛs", url=client.invitelink2),
+                InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 𝟸", url=client.invitelink2),
             ],
         ]
         try:
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="Restart",
+                        text="ʀᴇsᴛᴀʀᴛ",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -73,14 +73,14 @@ def fsub_button(client, message):
     if FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Aɴɪᴍᴇ Cᴀᴍᴘᴜs", url=client.invitelink),
+                InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 𝟷", url=client.invitelink),
             ],
         ]
         try:
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="Restart",
+                        text="ʀᴇsᴛᴀʀᴛ",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -91,15 +91,15 @@ def fsub_button(client, message):
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="Aɴɪᴍᴇ Cᴀᴍᴘᴜs", url=client.invitelink),
-                InlineKeyboardButton(text="Cᴀᴍᴘᴜs Bᴏᴛs", url=client.invitelink2),
+                InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 𝟷", url=client.invitelink),
+                InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 𝟸", url=client.invitelink2),
             ],
         ]
         try:
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="Restart ",
+                        text="ʀᴇsᴛᴀʀᴛ ",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
