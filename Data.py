@@ -25,6 +25,9 @@ class Data:
   ├ /speedtest - To test the bot server speed
   └ /broadcast - To send a broadcast message to the bot user
   
+ 👨‍💻 Developed by </b><a href='https://t.me/Campus_Bot_Updates'>Anime Campus</a>
+"""
+  
     close = [
         [InlineKeyboardButton("🍁Cʟᴏsᴇ🍁", callback_data="close")]
     ]
