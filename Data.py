@@ -46,11 +46,7 @@ class Data:
     ABOUT = """
 <b>About this Bot:
 
- @Anime_Campus_Bot is a Telegram Bot for storing posts or files that can be accessed via a special link.
+ @Animes_Xyz_bot is a Telegram Bot for storing posts or files that can be accessed via a special link.
 
-  • Creator: @MH17_KUNAL
+  • Creator: Hidden
   • Framework: Pyrograms
-  • Channel :@Campus_Bot_Updates
-
- 👨‍💻 Developed by @Anime_Campus
-"""
