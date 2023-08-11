@@ -218,7 +218,7 @@ async def send_text(client: Bot, message: Message):
         return await pls_wait.edit(status)
     else:
         msg = await message.reply(
-            "<code>Use this command must be replay to the telegram message that you want to broadcast.</code>"
+            "<code>Use this command must be reply to the telegram message that you want to broadcast.</code>"
         )
         await asyncio.sleep(8)
         await msg.delete()
