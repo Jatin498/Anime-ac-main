@@ -51,9 +51,9 @@ class Data:
 
  @Animes_Xyz_bot is a Telegram Bot for storing posts or files that can be accessed via a special link.
 
-  • Creator: @Trippt_Xt
+  • Creator: @Trippy_Xt
   • Framework: Pyrograms
-  • Channel :@Animes_Xyz
+  • Channel : @Animes_Xyz
 
  👨‍💻 Developed by @Animes_Xyz
 """
