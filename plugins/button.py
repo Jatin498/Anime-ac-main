@@ -10,7 +10,7 @@ def start_button(client):
     if not FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="‼️Hᴇᴋᴘ‼️", callback_data="help"),
+                InlineKeyboardButton(text="🏮Hᴇᴋᴘ🏮", callback_data="help"),
                 InlineKeyboardButton(text="🍁Cʟᴏsᴇ🍁", callback_data="close"),
             ],
         ]
@@ -21,7 +21,7 @@ def start_button(client):
                 InlineKeyboardButton(text="🦁Gʀᴏᴜᴘ🦁", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton(text="‼️Hᴇʟᴘ‼️", callback_data="help"),
+                InlineKeyboardButton(text="🏮Hᴇʟᴘ🏮", callback_data="help"),
                 InlineKeyboardButton(text="🍁Cʟᴏsᴇ🍁", callback_data="close"),
             ],
         ]
