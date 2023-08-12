@@ -34,7 +34,7 @@ class Data:
 
     mbuttons = [
         [
-            InlineKeyboardButton("😙Hᴇʟᴘ😙", callback_data="help"),
+            InlineKeyboardButton("🏮Hᴇʟᴘ🏮", callback_data="help"),
             InlineKeyboardButton("🍁Cʟᴏsᴇ🍁", callback_data="close")
         ],
     ]
