@@ -25,7 +25,7 @@ class Data:
   ├ /speedtest - To test the bot server speed
   └ /broadcast - To send a broadcast message to the bot user
   
- 👨‍💻 Developed by </b><a href='https://t.me/Animes_Xyz'>Anime Xyz</a>
+ 👨‍💻 Developed by </b><a href='https:https://t.me/Index_AC'>Index AC</a>
 """
 
     close = [
@@ -51,9 +51,9 @@ class Data:
 
  @Animes_Xyz_bot is a Telegram Bot for storing posts or files that can be accessed via a special link.
 
-  • Creator: @Trippy_Xt
+  • Creator: @RarelySukuna 
   • Framework: Pyrograms
-  • Channel : @Animes_Xyz
+  • Channel : @Index_Ac
 
- 👨‍💻 Developed by @Animes_Xyz
+ 👨‍💻 Developed by @Index_AC
 """
