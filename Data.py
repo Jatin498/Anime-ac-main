@@ -54,3 +54,6 @@ class Data:
   • Creator: @MH17_KUNAL
   • Framework: Pyrograms
   • Channel :@Campus_Bot_Updates
+
+ 👨‍💻 Developed by @Anime_Xyz
+"""
