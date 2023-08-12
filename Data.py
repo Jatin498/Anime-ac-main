@@ -24,14 +24,17 @@ class Data:
   ├ /batch - To link more than one file
   ├ /speedtest - To test the bot server speed
   └ /broadcast - To send a broadcast message to the bot user
-    
+  
+ 👨‍💻 Developed by </b><a href='https://t.me/Campus_Bot_Updates'>Anime Campus</a>
+"""
+
     close = [
         [InlineKeyboardButton("🍁Cʟᴏsᴇ🍁", callback_data="close")]
     ]
 
     mbuttons = [
         [
-            InlineKeyboardButton("‼️Hᴇʟᴘ‼️", callback_data="help"),
+            InlineKeyboardButton("😙Hᴇʟᴘ😙", callback_data="help"),
             InlineKeyboardButton("🍁Cʟᴏsᴇ🍁", callback_data="close")
         ],
     ]
@@ -50,3 +53,4 @@ class Data:
 
   • Creator: Hidden
   • Framework: Pyrograms
+  • Channel: @Animes_Xyz
