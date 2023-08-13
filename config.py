@@ -11,19 +11,19 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5667686087:AAFoBSC_ZakqJ27bJooN9DkYGuXywIYnNs8")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6683675157:AAETxXQkE8BzvVvJHChP8cS_LpruqPeX_tU")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "27984575"))
+APP_ID = int(os.environ.get("APP_ID", "23902408"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "c43cf36d63bf45d1eeedf3860822588c")
+API_HASH = os.environ.get("API_HASH", "6a36a4ef2f07d63aeba7b53b99c64d73)")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001860238057"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001918867134"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "Trippy_xt")
+OWNER = os.environ.get("OWNER", "RarelySukuna")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
@@ -39,7 +39,7 @@ UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://utrengvc:9dzgQRdKINRK5Iq5LOZFVaOfLEGNViqW@trumpet.db.elephantsql.com/utrengvc")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001983459833"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001813095890"))
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001774171058")) 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
